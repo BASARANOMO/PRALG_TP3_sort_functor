@@ -1,0 +1,1 @@
+add_executable(STLTest main.cpp eleve.h eleve.cpp compareEleve.h compareEleve.cpp)
