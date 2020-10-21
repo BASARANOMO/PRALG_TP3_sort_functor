@@ -4,7 +4,7 @@
 class CompareNom {
 	int* ptr;
 public:
-	CompareNom(int& count);
+	CompareNom(int* count);
 
 	bool operator()(Eleve e1, Eleve e2) const;
 };
@@ -12,7 +12,7 @@ public:
 class CompareNote {
 	int* ptr;
 public:
-	CompareNote(int& count);
+	CompareNote(int* count);
 
 	bool operator()(Eleve e1, Eleve e2) const;
 };
